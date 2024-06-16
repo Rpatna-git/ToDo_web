@@ -26,5 +26,3 @@ for index,item in enumerate(todo_list):
 st.text_input(label="ToDo item",on_change=add_todo,placeholder="Enter new todo item here",key='new_todo')
 
 
-print("Hello")
-st.session_state
